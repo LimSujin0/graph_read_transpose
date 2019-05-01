@@ -1,0 +1,18 @@
+
+****print original graph****
+A --> B --> C --> F --> NULL
+B --> C --> D --> NULL
+C --> NULL
+D --> A --> C --> NULL
+E --> C --> G --> NULL
+F --> A --> C --> NULL
+G --> D --> E --> NULL
+
+****print transpose graph****
+A --> D --> F --> NULL
+B --> A --> NULL
+C --> A --> B --> D --> E --> F --> NULL
+D --> B --> G --> NULL
+E --> G --> NULL
+F --> A --> NULL
+G --> E --> NULL
